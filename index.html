@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trektribe</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Pacifico&family=Truculenta:opsz,wght@12..72,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Basic&family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="./image/icons8-flight-24.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid nav-div">
+            <div class="logo">
+                <h3><span>t</span>rek<span>t</span>ravel</h3>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#trip">Trip</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Home -->
+
+    <section id="home">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="container-fluid">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./image/Huvafen-Fushi-Sunris.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block text-center text-xs-start">
+                  <h2>Huvafen Fushi Sunrise</h2>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <a href=""><button>Explore More</button> </a>   
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./image/Untitled (1).jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block text-center text-xs-start">
+                  <h2>Second slide label</h2>
+                  <p>Some representative placeholder content for the second slide.</p>                  
+                  <a href=""><button>Explore More</button> </a>   
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Elia-Locardi-Travel-Photography-RomanDreams-Rome-Italy-1440-WM-DM-60.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block text-center text-xs-start">
+                  <h2>Third slide label</h2>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <a href=""><button>Explore More</button> </a>   
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    <!-- About -->
+
+  <section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-content">
+                    <h4>ABOUT US</h4>
+                          <p>Welcome to TrekTribe! We are passionate explorers and travel enthusiasts dedicated to creating unforgettable experiences for fellow adventurers. At TrekTribe, we believe in the transformative power of travel. Whether it's discovering hidden gems, embracing diverse cultures, or embarking on thrilling adventures, we are here to curate journeys that leave a lasting impact.</p>
+                          <p>Our mission is simple : to inspire and facilitate your next great escape. From dreamy destinations to practical travel tips, we aim to be your trusted companion on the road to exploration.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-image">
+                    <img src="./image/HD-wallpaper-cities-city-house-evening-japan-street-kyoto.jpg" alt="Sunset Landscape">
+                </div>
+            </div>
+        </div>
+    </div>
+  </section> 
+
+  <!-- Trips -->
+
+  <section id="trip">
+    <div class="container">
+      <div class="trip-content">
+        <h4>TRIPS</h4>    
+        <div class="card-content">
+          <div class="card" id="trip-card" style="width: 18rem;">
+            <img src="./image/373e8a83-972b-4162-bd39-193bfdab1bba.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Trip 1-2 weeks</h5>
+              <p class="card-text">North Carolina and the Virginias Loop: Small Towns and expensive cities</p>
+            </div>
+          </div>  
+          <div class="card" id="trip-card" style="width: 18rem;">
+            <img src="./image/South of Broad Charleston - DIY Walk of the Prettiest Streets of Charleston.jpg" class="card-img-top" alt="...">
+            <div class="card-body card-h5">
+              <h5>Trip 5 days</h5>
+              <p class="card-text">South Carolina to Alabama Road Trip: Beaches,History and Iconic Music</p>
+            </div>
+          </div>  
+          <div class="card" id="trip-card" style="width: 18rem;">
+            <img src="./image/6261c280046110eb70bfde7f.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Trip 1-2 weeks</h5>
+              <p class="card-text">Southern California Road Trip: Coastal Escapes and a mountain retreat</p>
+            </div>
+          </div>  
+          <div class="card" id="trip-card" style="width: 18rem;">
+            <img src="./image/GettyImages-1176527951.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Trip 1-2 weeks</h5>
+              <p class="card-text">Southern Utah's National Parks and Small Towns</p>
+            </div>
+          </div>  
+        </div> 
+        <div class="button-card">
+          <button>View all trips</button>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- Fav Destinations -->
+  <section id="fav-dest">
+    <div class="fav-dest">
+      <h4>Our Customer's favourite holiday destinations</h4>
+      <sup>Top deals on all the hottest holiday hotspot</sup>
+    </div>
+    <div class="card-dest">
+      <div class="card first" id="cards" style="width: 18rem; height: 12rem;">
+        <div class="card-body card-dest-card1">
+          <h5 class="card-title card-title-dest">Algarve, Portugal</h5>
+          <!-- <a href="#" class="btn">From $79 pp</a> -->
+          <button>From $79 pp</button>
+        </div>
+      </div>
+      <div class="card" id="cards" style="width: 18rem; height: 12rem;">
+        <div class="card-body card-dest-card2">
+          <h5 class="card-title card-title-dest">Prague, Czech Republic</h5>
+          <!-- <a href="#" class="btn">From $79 pp</a> -->
+          <button>From $79 pp</button>
+        </div>
+      </div>
+      <div class="card" id="cards" style="width: 18rem; height: 12rem;">
+        <div class="card-body card-dest-card3">
+          <h5 class="card-title card-title-dest">Barcelona, Spain</h5>
+          <!-- <a href="#" class="btn">From $79 pp</a> -->
+          <button>From $79 pp</button>
+        </div>
+      </div>
+      <div class="card first" id="cards" style="width: 18rem; height: 12rem;">
+        <div class="card-body card-dest-card4">
+          <h5 class="card-title card-title-dest">Antalya region, Turkey</h5>
+          <!-- <a href="#" class="btn">From $79 pp</a> -->
+          <button>From $79 pp</button>
+        </div>
+      </div>
+      <div class="card" id="cards" style="width: 18rem; height: 12rem;">
+        <div class="card-body card-dest-card5">
+          <h5 class="card-title card-title-dest">Armsterdam, Netherlands</h5>
+          <!-- <a href="#" class="btn">From $79 pp</a> -->
+          <button>From $79 pp</button>
+        </div>
+      </div>
+      <div class="card" id="cards" style="width: 18rem; height: 12rem;">
+        <div class="card-body card-dest-card6">
+          <h5 class="card-title card-title-dest">Tenerife, Canary Islands</h5>
+          <!-- <a href="#" class="btn">From $79 pp</a> -->
+          <button>From $79 pp</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews -->
+
+  <section id="review">
+    <h4>REVIEWS</h4>
+    <p id="tag">What Our Clients Says</p>
+    <div class="review-container">
+      <div class="quote-icons">
+        <i class="fas fa-quote-left fa-2x"></i>
+      </div>
+    <div class="review-text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit id voluptas itaque quisquam nam! Dicta, illum repellendus quaerat nemo quidem error in est deserunt! Magni corporis provident libero. Maiores, esse.</p>
+    </div>
+    <div class="quote-icons">
+     <i class="fas fa-quote-right fa-2x"></i>
+    </div>
+    <div class="rate">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <p id="name">Name LastName</p>
+    </div>
+  </section>
+
+  <!-- blog -->
+  
+   <section id="blog">
+    <h4>OUR BLOG</h4>
+    <p id="blog-p">Latest from our blog</p>
+
+    <div class="row row-cols-1 row-cols-md-5 g-2">
+        <div class="col col-sm-12 card1">
+          <div class="card" id="card-blogs">
+            <img src="./image/Creative Photography.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below.
+                <br>
+                <a href="">Read More <i class="fa-solid fa-caret-right"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-12 card2">
+          <div class="card" id="card-blogs">
+            <img src="./image/LANDIO offers amazing Land For Sale at incredible prices!.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text belowl.<br>
+                <a href="">Read More <i class="fa-solid fa-caret-right"></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-12 card3">
+            <div class="card" id="card-blogs">
+              <img src="./image/The Best Gifts For Runners_ Gift Ideas For All Budgets.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below. <br>
+                     <a href="">Read More <i class="fa-solid fa-caret-right"></i></a></p>
+              </div>
+            </div>
+          </div> 
+          <div class="col col-sm-12 card3">
+            <div class="card" id="card-blogs">
+              <img src="./image/download (7).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below.
+                  <br>
+                  <a href="">Read More <i class="fa-solid fa-caret-right"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>               
+      </div>
+</section>
+
+<!-- contact -->
+
+<section id="contact" class="container">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4">
+        <div class="div1">
+          <h5 id="contact-head">Get in touch</h5> <br>
+          <p id="contact-head2">Feel free to drop us a line below</p>              
+          <form action="">
+              <input type="text" placeholder="your name.."> <br>
+              <input type="text" placeholder="your email.."><br>
+              <textarea name="" id="" cols="23" rows="8" placeholder="type your message here..."></textarea> <br>
+              <button>Send</button>                    
+          </form>
+      </div>
+      <!-- </div> -->
+      <!-- <div class="col"> -->
+        <div class="div2">
+          <h5>CONTACT US</h5>
+          <div class="loc">
+              <i class="fa-solid fa-location-dot"></i>
+              <span id="fst">32, Avenue ve Newyork</span> <br>
+              <span id="scnd">321994 Newyork.</span>
+          </div>
+          <div class="mail">
+              <i class="fa-solid fa-envelope"></i>
+              <span>hello@trektribe.com</span>
+          </div>
+          <div class="phn">
+              <i class="fa-solid fa-phone"></i>
+              <span>+91 99850 78546</span>
+          </div>
+      </div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </section>
+
+<!-- footer -->
+
+<footer>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="footer-div">
+            <div class="foot-logo">
+                <img src="./image/tt-logos_white-copy.png" alt="">
+            </div>
+            <div class="quik-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#trip">Trips</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="news-letter">
+                <h6>Subscribe to our Newsletter</h6>
+                <div class="news-form">
+                    <input type="text" placeholder="email address...">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+            </div>
+        </div>
+        <div class="foot-foot">
+            <div class="privacy">
+                <a href="" id="a-pri">Privacy Policy</a>
+                <a href="" id="a-cook">Cookies</a>
+            </div>
+            <div class="social-media">
+                <p>Connect with Us :</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="back-to-top">
+                <p>Back to Top</p>
+                <div class="up-che">
+                    <a href="#home">
+                      <i class="fa-solid fa-chevron-up fa-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
